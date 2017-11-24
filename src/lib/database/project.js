@@ -62,6 +62,10 @@ export const schema = new db.Schema({
     type: String,
     default: 'Application'
   },
+  desktopName: {
+    type: String,
+    default: ''
+  },
 
   repo: {
     type: String,
